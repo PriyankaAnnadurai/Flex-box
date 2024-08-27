@@ -332,11 +332,38 @@ footer {
 footer p {
     font-size: 14px;
 }
+
 @media (max-width: 480px) {
-    .category-item,
-    .book-item,
+    .category-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .category-item {
+        width: 45%; 
+        margin-bottom: 20px; 
+    }
+
+    .book-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .book-item {
+        width: 45%; 
+        margin-bottom: 20px; 
+    }
+
+    .event-grid {
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+    }
+
     .event-item {
-        width: 100%; 
+        width: 90%;
         margin-bottom: 20px;
     }
 }
