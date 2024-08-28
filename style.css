@@ -106,7 +106,7 @@ body {
 }
 
 .btn-primary {
-    background-color: #E74C3C;
+    background-color:#031a31;
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
@@ -114,7 +114,9 @@ body {
     font-size: 18px;
     position: relative;
 }
-
+.btn-primary:hover{
+    background-color: #E74C3C;
+}
 .about {
     padding: 50px 20px;
     background-color: #fff;
@@ -327,7 +329,9 @@ footer {
     font-size: 24px;
     margin-bottom: 10px;
 }
-
+.footer-contact p:hover{
+    color: #E74C3C;
+}
 footer p {
     font-size: 14px;
 }
